@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+ images: {
+  remotePatterns: [
+   {
+    hosname: "steady-schnauzer-423.convex.cloud"
+   }
+  ]
+ }
+}
 
-export default nextConfig;
+export default nextConfig
