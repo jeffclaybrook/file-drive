@@ -3,7 +3,8 @@ const nextConfig = {
  images: {
   remotePatterns: [
    {
-    hosname: "steady-schnauzer-423.convex.cloud"
+    protocol: "https",
+    hostname: "steady-schnauzer-423.convex.cloud"
    }
   ]
  }
